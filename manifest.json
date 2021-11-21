@@ -1,0 +1,12 @@
+{
+  "name": "Zoom Youtube Controls",
+  "action": {},
+  "manifest_version": 3,
+  "version": "0.1",
+  "description": "Makes YouTube speed controls bigger when using touch",
+  "content_scripts": [{
+    "matches": ["<all_urls>"],
+    "all_frames" : true,
+    "js": ["core.js"]
+  }]
+}
